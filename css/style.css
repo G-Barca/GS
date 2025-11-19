@@ -404,3 +404,82 @@ font-size: 1.2rem;
     color: #333;
 }
 
+
+/* Página de Contato */
+
+/* CONTAINER DO FORM */
+.contato {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contato h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* FORM */
+#formContato {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+#formContato label {
+    font-weight: bold;
+}
+
+/* CAMPOS */
+#formContato input {
+    padding: 10px;
+    border: 2px solid #f2cfa5;
+    border-radius: 10px;
+    background-color: #ffe9d6;
+    outline: none;
+    font-size: 16px;
+}
+
+#formContato input:focus {
+    border-color: #f45d48;
+}
+
+/* BOTÃO */
+.btn-enviar {
+    background-color: #f45d48;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-enviar:hover {
+    background-color: #d64739;
+    transform: scale(1.03);
+}
+
+/* MENSAGEM DE ERRO */
+#erro {
+    margin-top: 10px;
+    color: red;
+    font-weight: bold;
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 500px) {
+    .contato {
+        padding: 10px;
+    }
+
+    #formContato input {
+        font-size: 14px;
+    }
+
+    .btn-enviar {
+        font-size: 16px;
+    }
+}
