@@ -488,5 +488,83 @@ font-size: 1.2rem;
 }
 
 
-/* Página de Recompensas */
+/* PÁGINA dee RECOMPENSAS */
 
+/* CARDS */
+.rewards-title {
+    text-align: center;
+    font-size: 2rem;
+    margin: 2rem 0;
+    color: forestgreen;
+}
+
+
+.rewards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+
+.reward-card {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform .3s ease, box-shadow .3s ease;
+}
+
+
+.reward-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+
+.reward-img {
+    width: 85px;
+    margin-bottom: 1rem;
+}
+
+
+.reward-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: .5rem;
+}
+
+/* PONTOS */
+.points {
+    font-size: 1rem;
+    color: forestgreen;
+    margin-bottom: 1rem;
+}
+
+/* BOTÃO RESGATAR */
+.btn-resgatar {
+    background: forestgreen;
+    color: #fff;
+    border: none;
+    width: 100%;
+    padding: .7rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btn-resgatar:hover {
+    background: #2d7a2d;
+}
+
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 900px) {
+    .rewards-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
