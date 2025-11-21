@@ -12,6 +12,9 @@ header{
     box-shadow: 0px 3px 10px #333;
 }
 
+.index-h1{
+    color: forestgreen;
+}
 
 .texto1{
     font-size: 1.4rem;
@@ -483,3 +486,7 @@ font-size: 1.2rem;
         font-size: 16px;
     }
 }
+
+
+/* Página de Recompensas */
+
