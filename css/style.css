@@ -636,3 +636,27 @@ font-size: 1.2rem;
     font-weight: bold;
     z-index: 1000;
 }
+
+
+/* Página Sobre */
+
+.sobre-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.sobre-pag {
+    max-width: 800px;        
+    text-align: center;       
+    font-size: 1.1rem;
+    line-height: 1.7;        
+    color: #333;
+    margin: 0 auto;
+    padding: 20px;
+
+    background: #f7f7f7;      
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.08);
+}
